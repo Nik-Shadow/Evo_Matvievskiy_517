@@ -1,0 +1,64 @@
+{
+  "N": 11,
+  "Q": 1,
+  "Y": 26,
+  "variant": 1,
+  "n_items": 30,
+  "data_seed": 261101,
+  "limits": [
+    184,
+    117
+  ],
+  "capacity_fraction": 0.35,
+  "seeds": [
+    11001,
+    11002,
+    11003,
+    11004,
+    11005,
+    11006,
+    11007,
+    11008,
+    11009,
+    11010,
+    11011,
+    11012,
+    11013,
+    11014,
+    11015,
+    11016,
+    11017,
+    11018,
+    11019,
+    11020
+  ],
+  "population": 100,
+  "elite": 2,
+  "generations": 300,
+  "tournament_size": 3,
+  "p_crossover": 0.9,
+  "p_mutation": 0.03333333333333333,
+  "penalty": 1635,
+  "budget": 29500,
+  "configs": {
+    "A": [
+      "repair",
+      "one_point"
+    ],
+    "B": [
+      "penalty",
+      "one_point"
+    ],
+    "C": [
+      "repair",
+      "uniform"
+    ],
+    "RS": [
+      "random",
+      null
+    ]
+  },
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

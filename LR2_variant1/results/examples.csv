@@ -1,0 +1,5 @@
+items,mass,volume,value,feasible
+пустой набор,0,0,0,True
+1 2 3 4 5,65,72,270,True
+3 6 9 11 15 16 20 22,195,35,339,False
+1 2 4 12 14 18 25 26,57,122,484,False

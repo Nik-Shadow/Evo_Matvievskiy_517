@@ -1,0 +1,35 @@
+{
+  "student": {"N": 11, "Q": 1, "Y": 26, "V": 1, "group": 517},
+  "laboratory": 3,
+  "track": "A",
+  "problem": "multiobjective project portfolio",
+  "projects": 30,
+  "data_seed": 202611,
+  "cost_budget": 135,
+  "min_projects": 3,
+  "max_projects": 8,
+  "population": 50,
+  "crossover": "one_point",
+  "crossover_probability": 0.9,
+  "mutation": "bit_flip",
+  "mutation_probability_per_bit": 0.03333333333333333,
+  "constraint_handling": "random_repair",
+  "methods": {
+    "NSGA-II": {"generations": 104, "evaluations": 5250},
+    "weighted_sum": {
+      "generations_per_weight": 20,
+      "evaluations": 5250,
+      "weights": [
+        [0.7, 0.15, 0.15],
+        [0.5, 0.35, 0.15],
+        [0.5, 0.15, 0.35],
+        [0.3, 0.5, 0.2],
+        [0.3, 0.2, 0.5]
+      ]
+    }
+  },
+  "seeds": [3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110,
+            3111, 3112, 3113, 3114, 3115, 3116, 3117, 3118, 3119, 3120],
+  "hypervolume_samples": 6000,
+  "hypervolume_seed": 99
+}
