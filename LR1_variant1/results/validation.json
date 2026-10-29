@@ -1,0 +1,23 @@
+{
+  "notebook_executed": true,
+  "code_cells": 11,
+  "code_lines": 207,
+  "variant": 1,
+  "dimension": 6,
+  "runs": 60,
+  "runs_per_method": 20,
+  "evaluations_per_run": 29500,
+  "total_search_evaluations": 1770000,
+  "trajectory_rows": 18060,
+  "all_results_feasible": true,
+  "statistics_match_raw_results": true,
+  "all_histories_nonincreasing": true,
+  "best_seed": 11017,
+  "best_f": 3.9609026657405155e-06,
+  "best_run_reproduced_exactly": true,
+  "actual_evaluation_count_checked": true,
+  "random_baseline_reproduced": true,
+  "report_tables_match_csv": true,
+  "report_pages": 10,
+  "note": "Validation evaluations are separate from the optimization budgets."
+}
